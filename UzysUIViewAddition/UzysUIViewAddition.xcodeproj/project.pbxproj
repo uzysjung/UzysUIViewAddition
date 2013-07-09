@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95CCAF75177437A700C06EA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CCAF74177437A700C06EA8 /* UIKit.framework */; };
+		95CCAF77177437A700C06EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CCAF76177437A700C06EA8 /* Foundation.framework */; };
+		95CCAF79177437A700C06EA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CCAF78177437A700C06EA8 /* CoreGraphics.framework */; };
+		95CCAF7F177437A700C06EA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95CCAF7D177437A700C06EA8 /* InfoPlist.strings */; };
+		95CCAF81177437A700C06EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CCAF80177437A700C06EA8 /* main.m */; };
+		95CCAF85177437A700C06EA8 /* UzysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CCAF84177437A700C06EA8 /* UzysAppDelegate.m */; };
+		95CCAF87177437A700C06EA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CCAF86177437A700C06EA8 /* Default.png */; };
+		95CCAF89177437A700C06EA8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CCAF88177437A700C06EA8 /* Default@2x.png */; };
+		95CCAF8B177437A700C06EA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CCAF8A177437A700C06EA8 /* Default-568h@2x.png */; };
+		95CCAF8E177437A700C06EA8 /* UzysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CCAF8D177437A700C06EA8 /* UzysViewController.m */; };
+		95CCAF91177437A700C06EA8 /* UzysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95CCAF8F177437A700C06EA8 /* UzysViewController.xib */; };
+		95CCAF9A1774384500C06EA8 /* UIView+UzysAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CCAF991774384500C06EA8 /* UIView+UzysAddition.m */; };
+		95CCAF9C17745A2A00C06EA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95CCAF9B17745A2A00C06EA8 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95CCAF71177437A700C06EA8 /* UzysUIViewAddition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UzysUIViewAddition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CCAF74177437A700C06EA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95CCAF76177437A700C06EA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95CCAF78177437A700C06EA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95CCAF7C177437A700C06EA8 /* UzysUIViewAddition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UzysUIViewAddition-Info.plist"; sourceTree = "<group>"; };
+		95CCAF7E177437A700C06EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95CCAF80177437A700C06EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95CCAF82177437A700C06EA8 /* UzysUIViewAddition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UzysUIViewAddition-Prefix.pch"; sourceTree = "<group>"; };
+		95CCAF83177437A700C06EA8 /* UzysAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UzysAppDelegate.h; sourceTree = "<group>"; };
+		95CCAF84177437A700C06EA8 /* UzysAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UzysAppDelegate.m; sourceTree = "<group>"; };
+		95CCAF86177437A700C06EA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		95CCAF88177437A700C06EA8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		95CCAF8A177437A700C06EA8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		95CCAF8C177437A700C06EA8 /* UzysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UzysViewController.h; sourceTree = "<group>"; };
+		95CCAF8D177437A700C06EA8 /* UzysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UzysViewController.m; sourceTree = "<group>"; };
+		95CCAF90177437A700C06EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UzysViewController.xib; sourceTree = "<group>"; };
+		95CCAF981774384500C06EA8 /* UIView+UzysAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UzysAddition.h"; sourceTree = "<group>"; };
+		95CCAF991774384500C06EA8 /* UIView+UzysAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UzysAddition.m"; sourceTree = "<group>"; };
+		95CCAF9B17745A2A00C06EA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CCAF6E177437A700C06EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CCAF75177437A700C06EA8 /* UIKit.framework in Frameworks */,
+				95CCAF77177437A700C06EA8 /* Foundation.framework in Frameworks */,
+				95CCAF9C17745A2A00C06EA8 /* QuartzCore.framework in Frameworks */,
+				95CCAF79177437A700C06EA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95CCAF68177437A700C06EA8 = {
+			isa = PBXGroup;
+			children = (
+				95CCAF7A177437A700C06EA8 /* UzysUIViewAddition */,
+				95CCAF73177437A700C06EA8 /* Frameworks */,
+				95CCAF72177437A700C06EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CCAF72177437A700C06EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CCAF71177437A700C06EA8 /* UzysUIViewAddition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CCAF73177437A700C06EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95CCAF9B17745A2A00C06EA8 /* QuartzCore.framework */,
+				95CCAF74177437A700C06EA8 /* UIKit.framework */,
+				95CCAF76177437A700C06EA8 /* Foundation.framework */,
+				95CCAF78177437A700C06EA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CCAF7A177437A700C06EA8 /* UzysUIViewAddition */ = {
+			isa = PBXGroup;
+			children = (
+				95CCAF971774382A00C06EA8 /* Library */,
+				95CCAF83177437A700C06EA8 /* UzysAppDelegate.h */,
+				95CCAF84177437A700C06EA8 /* UzysAppDelegate.m */,
+				95CCAF8C177437A700C06EA8 /* UzysViewController.h */,
+				95CCAF8D177437A700C06EA8 /* UzysViewController.m */,
+				95CCAF8F177437A700C06EA8 /* UzysViewController.xib */,
+				95CCAF7B177437A700C06EA8 /* Supporting Files */,
+			);
+			path = UzysUIViewAddition;
+			sourceTree = "<group>";
+		};
+		95CCAF7B177437A700C06EA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95CCAF7C177437A700C06EA8 /* UzysUIViewAddition-Info.plist */,
+				95CCAF7D177437A700C06EA8 /* InfoPlist.strings */,
+				95CCAF80177437A700C06EA8 /* main.m */,
+				95CCAF82177437A700C06EA8 /* UzysUIViewAddition-Prefix.pch */,
+				95CCAF86177437A700C06EA8 /* Default.png */,
+				95CCAF88177437A700C06EA8 /* Default@2x.png */,
+				95CCAF8A177437A700C06EA8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95CCAF971774382A00C06EA8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				95CCAF981774384500C06EA8 /* UIView+UzysAddition.h */,
+				95CCAF991774384500C06EA8 /* UIView+UzysAddition.m */,
+			);
+			path = Library;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CCAF70177437A700C06EA8 /* UzysUIViewAddition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CCAF94177437A700C06EA8 /* Build configuration list for PBXNativeTarget "UzysUIViewAddition" */;
+			buildPhases = (
+				95CCAF6D177437A700C06EA8 /* Sources */,
+				95CCAF6E177437A700C06EA8 /* Frameworks */,
+				95CCAF6F177437A700C06EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UzysUIViewAddition;
+			productName = UzysUIViewAddition;
+			productReference = 95CCAF71177437A700C06EA8 /* UzysUIViewAddition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CCAF69177437A700C06EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Uzys;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Uzys;
+			};
+			buildConfigurationList = 95CCAF6C177437A700C06EA8 /* Build configuration list for PBXProject "UzysUIViewAddition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95CCAF68177437A700C06EA8;
+			productRefGroup = 95CCAF72177437A700C06EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CCAF70177437A700C06EA8 /* UzysUIViewAddition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CCAF6F177437A700C06EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CCAF7F177437A700C06EA8 /* InfoPlist.strings in Resources */,
+				95CCAF87177437A700C06EA8 /* Default.png in Resources */,
+				95CCAF89177437A700C06EA8 /* Default@2x.png in Resources */,
+				95CCAF8B177437A700C06EA8 /* Default-568h@2x.png in Resources */,
+				95CCAF91177437A700C06EA8 /* UzysViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CCAF6D177437A700C06EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CCAF81177437A700C06EA8 /* main.m in Sources */,
+				95CCAF85177437A700C06EA8 /* UzysAppDelegate.m in Sources */,
+				95CCAF8E177437A700C06EA8 /* UzysViewController.m in Sources */,
+				95CCAF9A1774384500C06EA8 /* UIView+UzysAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95CCAF7D177437A700C06EA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CCAF7E177437A700C06EA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95CCAF8F177437A700C06EA8 /* UzysViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CCAF90177437A700C06EA8 /* en */,
+			);
+			name = UzysViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95CCAF92177437A700C06EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95CCAF93177437A700C06EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CCAF95177437A700C06EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UzysUIViewAddition/UzysUIViewAddition-Prefix.pch";
+				INFOPLIST_FILE = "UzysUIViewAddition/UzysUIViewAddition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95CCAF96177437A700C06EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UzysUIViewAddition/UzysUIViewAddition-Prefix.pch";
+				INFOPLIST_FILE = "UzysUIViewAddition/UzysUIViewAddition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CCAF6C177437A700C06EA8 /* Build configuration list for PBXProject "UzysUIViewAddition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CCAF92177437A700C06EA8 /* Debug */,
+				95CCAF93177437A700C06EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CCAF94177437A700C06EA8 /* Build configuration list for PBXNativeTarget "UzysUIViewAddition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CCAF95177437A700C06EA8 /* Debug */,
+				95CCAF96177437A700C06EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CCAF69177437A700C06EA8 /* Project object */;
+}

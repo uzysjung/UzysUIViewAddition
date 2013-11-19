@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/uzysjung/UzysUIViewAddition.git", :tag => "0.9.0" }
   s.requires_arc = false
-  s.source_files = 'UzysUIViewAddition/UzysUIViewAddition/Library'
-  s.public_header_files = 'UzysUIViewAddition/UzysUIViewAddition/Library/*.h'
+  s.source_files = 'UzysUIViewAddition/Library'
+  s.public_header_files = 'UzysUIViewAddition/Library/*.h'
   s.ios.frameworks = 'QuartzCore'
 
 end
